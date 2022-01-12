@@ -2,7 +2,7 @@
 
 
 cd  #home path
-
+git remote remove origin
 git remote add origin git@github.com:mahantheshmr/jenkins_linux_server.git
 
 git add *
