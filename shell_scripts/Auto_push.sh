@@ -6,6 +6,8 @@ cd  #home path
 git remote add origin git@github.com:mahantheshmr/jenkins_linux_server.git
 
 git add *
+git config advice.addIgnoredFile false
+
 timestamp(){
 	   date +"%d.%m.%Y um %H:%M"
    	   }
